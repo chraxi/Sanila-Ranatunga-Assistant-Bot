@@ -5,8 +5,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyb
 
 bot = Client(
     "bot",
-    api_id=,
-    api_hash="",
+    api_id=7263889,
+    api_hash="89c452ed35062d2d31922e6d8d069c90",
     bot_token="2061542733:AAHQygSAwGCppBx_LJIsEA7pPF8QAv2UM0k"
 )
 START_MESSAGE = "**𝐒𝐚𝐧𝐢𝐥𝐚'𝐬 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐁𝐨𝐭**\n\n🙋‍♂Hello, This is Sanila's Telegram Assistant bot™. This bot was created to collect your feedbacks, bugs and ideas about Sanila's bots😊. 𝐂𝐥𝐢𝐜𝐤 /help 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐭𝐡𝐢𝐧𝐠𝐬.\n\n" \
