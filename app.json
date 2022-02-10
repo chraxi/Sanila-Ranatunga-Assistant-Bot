@@ -1,29 +1,39 @@
 {
-  "name": "Assistant Bot",
-  "description": "Sanila's Official Telegram Assistant bot",
-  "logo": "https://telegra.ph/file/6a3b1febade2313dd0dca.jpg",
-  "keywords": [
-    "Telegram","Assistant Bot"
-  ],
-  "repository": "https://github.com/sanila2007/Sanila-Ranatunga-Assistant-Bot",
-  "success_url": "https://t.me/sanilaassistant_bot",
-  "website": "https://github.com/sanila2007/Sanila-Ranatunga-Assistant-Bot",
-  "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
-  },
-      "buildpacks": [
-        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
-        {"url": "heroku/python"}
+    "name": "Sanila-Assistant-bot,
+    "description": "Powerful Telegram bot to connect with sanila",
+    "repository": "https://github.com/sanila2007/Sanila-Ranatunga-Assistant-Bot",
+    "logo": "https://telegra.ph/file/73550b9954e83d4a571fc.jpg",
+    "keywords": [
+        "countdown",
+        "timer",
+        "important events",
+        "countdown timer",
+        "Telegram bot",
+        "Pyrogram bot"
     ],
-  "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
+    "env": {
+        "API_ID": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Get from Telegram's @BotFather",
+            "required": true
         }
     },
-      "stack": "heroku-20"
-
-
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
